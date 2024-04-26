@@ -21,7 +21,7 @@ public class WebConfig {
         final UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         final CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
-        config.setAllowedOrigins(Arrays.asList("http://188.165.209.204:4200"));
+        config.setAllowedOrigins(Arrays.asList("http://188.165.209.204:4200/machine"));
         config.setAllowedHeaders(Arrays.asList("Origin","Content-type","Accept","Authorization"));
         config.setAllowedMethods(Arrays.asList("PUT","POST","PATCH","GET","DELETE","OPTIONS"));
         source.registerCorsConfiguration("/**",config);
