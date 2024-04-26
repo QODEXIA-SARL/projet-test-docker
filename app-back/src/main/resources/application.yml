@@ -2,7 +2,7 @@ spring:
   application:
     name: manage-machine-information
   datasource:
-    url: jdbc:postgresql://localhost:5432/postgres
+    url: jdbc:postgresql://postgresdb:5432/postgres
     username: postgres
     password: root
     driverClassName: org.postgresql.Driver
